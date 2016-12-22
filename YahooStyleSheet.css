@@ -1,0 +1,88 @@
+﻿
+.container {
+    border: 1px dashed #E2E2E1;
+    width: 310px;
+    margin: auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.page-options {
+    background-image: url("Yahoo_Optins.png");
+    background-repeat: no-repeat;
+    background-size: 310px auto;
+    height: 40px;
+}
+
+.page-title {
+    font-size: 18.66667px;
+    color: #3f008f;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FAFAFC;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.product-title {
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid #ababac;
+    border-bottom: 1px solid #ababac;
+    font-size: 18.3px;
+    cursor: pointer;
+}
+
+.product-issues {
+    background-color: #EFF3FF;
+}
+
+    .product-issues .issue {
+        padding: 10px 0px 10px 0px;
+        border-bottom: 1px solid #E2E2E3;
+    }
+
+        .product-issues .issue .issue-title {
+            font-size: 18.3px;
+        }
+
+        .product-issues .issue .issue-time {
+            font-size: 14px;
+            padding-bottom: 10px;
+        }
+
+        .product-issues .issue .issue-details {
+            padding-bottom: 10px;
+        }
+
+            .product-issues .issue .issue-details a {
+                color: #515AA7;
+                text-decoration: none;
+            }
+
+.cpl {
+    padding-left: 10px;
+}
+
+.outer-circle-green {
+    height: 18px;
+    width: 18px;
+    border: 1px solid #3CB450;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+}
+
+    .outer-circle-green > .inner-circle-green {
+        background-color: #3cb450;
+        border-radius: 50%;
+        height: 12px;
+        width: 12px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+.outer-circle-orange {
+    border: 1px solid #EF910B !important;
+}
+
+    .outer-circle-orange > .inner-circle-orange {
+        background-color: #EF910B !important;
+    }
